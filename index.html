@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- BS4 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <h1>Bài tập luyện mảng</h1>
+                <form class="text-center">
+                    <div class="form-group">
+                        <label for="inputArray">Nhập số nguyên</label>
+                        <input type="text" class="form-control" id="inputArray">
+                    </div>
+                    <button id="btnAdd" type="button" class="btn btn-success">Thêm vào mảng</button>
+                    <div class="form-group row">
+                        <div class="col-3 pt-4">
+                            <label for="inputX">Vị trí X:</label>
+                        </div>
+                        <div class="col-3 pt-4">
+                            <input type="text" class="form-control" id="inputX">
+                        </div>
+                        <div class="col-3 pt-4">
+                            <label for="inputY">Vị trí Y:</label>
+                        </div>
+                        <div class="col-3 pt-4">
+                            <input type="text" class="form-control" id="inputY">
+                        </div>
+                        <div class="col-12">
+                            <button id="btnDoiViTri" type="button" class="btn btn-success m-3">Đổi chỗ hai số <br> vị
+                                trí x, y</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-4">
+                        <button id="btnTongDuong" type="button" class="btn btn-success m-3">Tính tổng số dương</button>
+                    </div>
+                    <div class="col-4">
+                        <button id="btnDemSoDuong" type="button" class="btn btn-success m-3">Đếm số dương</button>
+                    </div>
+                    <div class="col-4">
+                        <button id="btnTimSoNN" type="button" class="btn btn-success m-3">Tìm số nhỏ nhất</button>
+                    </div>
+                    <div class="col-4">
+                        <button id="btnTimSoDuongNN" type="button" class="btn btn-success m-3">Tìm số dương nhỏ
+                            nhất</button>
+                    </div>
+                    <div class="col-4">
+                        <button id="btnTimSoChanCuoi" type="button" class="btn btn-success m-3">Tìm số chẵn
+                            cuối</button>
+                    </div>
+                    <div class="col-4">
+                        <button id="btnSortTang" type="button" class="btn btn-success m-3">Sắp xếp tăng dần</button>
+                    </div>
+                    <div class="col-4"></div>
+                    <div class="col-4">
+                        <button id="btnSNT" type="button" class="btn btn-success m-3">Tìm SNT đầu tiên</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <h1 id="array1"></h1>
+            </div>
+            <div class="col-6">
+                <h1 id="txtKetQua"></h1>
+            </div>
+
+            <div class="col-6 p-5">
+                <form>
+                    <div class="form-group">
+                        <label for="inputArray2">Nhập số thực</label>
+                        <input type="text" class="form-control" id="inputArray2">
+                    </div>
+                    <button id="btnAdd2" type="button" class="btn btn-success">Thêm vào mảng</button>
+                </form>
+            </div>
+            <div class="col-6 p-5">
+                <div class="col-6">
+                    <button id="btnDemSoNguyen" type="button" class="btn btn-success m-3">Đếm số lượng số nguyên</button>
+                </div>
+                <div class="col-6">
+                    <button id="btnSSAD" type="button" class="btn btn-success m-3">So sánh sl âm, sl dương</button>
+                </div>
+            </div>
+            <div class="col-6">
+                <h1 id="array2"></h1>
+            </div>
+            <div class="col-6">
+                <h1 id="txtKetQua2"></h1>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- thư viện hỗ trợ -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+
+    <!-- BS4 JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
